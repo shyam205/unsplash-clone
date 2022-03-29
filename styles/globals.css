@@ -20,6 +20,9 @@ a {
 }
 .imagesection-container{
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  break-inside: avoid;
 }
 .imagebox{
     padding-left: 20px;
@@ -39,7 +42,6 @@ a {
 .imagebox .imagesection{
   display: flex;
   flex-direction: column;
-  break-inside: avoid;
 }
 .imagesection, .imagesection span{
   position: relative !important;

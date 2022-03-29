@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost'],
+    domains: ['powerful-mountain-98363.herokuapp.com'],
   },
 }
 
